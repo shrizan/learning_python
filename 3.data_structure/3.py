@@ -15,3 +15,5 @@ first, second, *other = numbers
 print(first)
 print(second)
 print(other)
+
+first, *in_between, last = numbers
