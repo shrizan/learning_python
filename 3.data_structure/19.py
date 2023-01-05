@@ -8,7 +8,7 @@ print(point["x"])
 point["z"] = 1000
 print(point)
 if "n" in point:
-    print["n"]
+    print(point["n"])
 print(point.get("g", 2000))
 # delete item from dictionary
 del point["x"]
